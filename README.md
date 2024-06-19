@@ -1,7 +1,7 @@
 
 ### Manager Module README.md
 
-```markdown
+
 # 🧑‍💼 Restaurant System - Manager Module
 
 ## Overview
