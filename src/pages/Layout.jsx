@@ -4,8 +4,9 @@ import Navigation from "../components/Navigation";
 
 function Layout() {
   return (
-    <main className="flex flex-col lg:flex-row justify-between h-full w-full">
+    <main className="flex flex-col lg:flex-row h-full w-full">
       <Navigation />
+
       <Outlet />
     </main>
   );

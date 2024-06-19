@@ -181,7 +181,7 @@ function NewFoodItem() {
   };
 
   return (
-    <div className="p-2 overflow-y-auto flex flex-col justify-between gap-6 border border-neutral-400 m-4 rounded-xl bg-secondary h-[90%] lg:h-[90%] lg:w-[86%]">
+    <div className="p-2 overflow-y-auto  custom_scrollbar flex flex-col justify-between gap-6 border border-neutral-400 m-4 rounded-xl bg-secondary h-[90%] lg:h-[90%] lg:w-[86%]">
       <form
         onSubmit={handle_item_submit}
         className=" p-2 "
@@ -223,6 +223,7 @@ function NewFoodItem() {
                 <input
                   className="border-2 border-neutral-800 rounded-xl p-1 font-primary focus:shadow-lg transition-all"
                   pattern="[0-9]*[.]?[0-9]+"
+                  inputMode="numeric"
                   type="text"
                   name="price"
                   id="price"

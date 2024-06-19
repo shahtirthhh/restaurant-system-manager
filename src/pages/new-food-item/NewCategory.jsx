@@ -67,7 +67,7 @@ function NewCategory({ fetch_categories, categories, loading, error }) {
             className="font-primary font-semibold text-primary_font text-lg"
             htmlFor="category_name"
           >
-            Item name
+            Category
           </label>
           <input
             ref={category}

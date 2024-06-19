@@ -74,7 +74,7 @@ function Categories({ fetch_categories, categories, loading, error }) {
         </div>
       )}
       {!loading && (
-        <div className="w-full h-56 overflow-auto">
+        <div className="w-full h-56 overflow-auto  custom_scrollbar">
           <table className="min-w-full border-collapse">
             <tbody>
               {categories &&
