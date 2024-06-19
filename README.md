@@ -24,6 +24,19 @@ Welcome to the **Restaurant System Manager Module**! This module empowers manage
 3. **Menu Management**: Managers can manage the menu items that customers can view and order.
 4. **Real-time Notifications**: Updates on orders are sent in real-time via **Socket.io** to ensure all parties are informed.
 
+
+## Links to Other Modules
+**Customer Module**: [GitHub](https://github.com/shahtirthhh/restaurant-system-customer), [Live Demo](https://restaurant-system-customer-module.netlify.app/)
+
+**Chef Module**: [GitHub](https://github.com/shahtirthhh/restaurant-system-chef), [Live Demo](https://restaurant-system-chef-module.netlify.app/)
+
+**Backend API**: [GitHub](https://github.com/shahtirthhh/restaurant-system-backend)
+
+## Contributors
+**Tirth Shah**
+      
+[**Devanshee Ramanuj**](https://github.com/ramanujdevanshee22)
+
 ## Installation
 
 To run this module locally:
